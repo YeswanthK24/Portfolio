@@ -600,3 +600,399 @@ footer p a:hover {
     font-size: 1.5em; /* Adjust size as needed */
     color: #ffffff; /* Adjust color as needed */
 }
+/* CSS reset for consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Basic styling */
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #4070f4;
+} */
+
+.navbar .logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar .menu {
+  display: flex;
+  list-style: none;
+}
+
+.navbar .menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.navbar .media-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.menu-btn,
+.cancel-btn {
+  display: none;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Home section styling */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #4070f4;
+  color: #fff;
+}
+
+.home .home-content .text {
+  text-align: center;
+}
+
+.home .home-content .text-one,
+.home .home-content .text-two,
+.home .home-content .text-three,
+.home .home-content .text-four {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* About section styling */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.about .about-details {
+  display: flex;
+  max-width: 1000px;
+}
+
+.about .left img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.about .right {
+  padding-left: 20px;
+}
+
+.about .right .title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about .right .topic {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Skills section styling */
+.skills {
+  padding: 50px 0;
+  background-color: f1f1f1;
+  color: #fff;
+  text-align: center;
+}
+
+.skills .title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.skills .skills-details .text .topic {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.skills .skills-details .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills .skills-details .box {
+  background-color: #333;
+  color: #fff;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 30%;
+  max-width: 30%;
+  text-align: center;
+}
+
+/* Certificates section styling */
+.certificates {
+  padding: 50px 0;
+  background-color: #f7f7f7;
+}
+
+.certificates .title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.certificates .certificates-details {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.certificates .certificate {
+  /* flex: 1 1 calc(60% - 20px);
+  max-width: calc(60% - 20px);
+  margin: 10px; */
+  width: 400px; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
+  overflow: hidden;
+  border: 2px solid #fff; /* Add border */
+  border-radius: 5px; /* Add border radius */
+}
+
+
+.certificates .certificate img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.certificates .content .title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #4070f4;
+}
+
+/* Services section styling */
+.services {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.services .title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.services .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.services .box {
+  background-color: #f7f7f7;
+  color: #333;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 30%;
+  max-width: 30%;
+  text-align: center;
+}
+
+/* Contact section styling */
+.contact {
+  padding: 50px 0;
+  background-color: #4070f4;
+  color: #fff;
+  text-align: center;
+}
+
+.contact .title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact .contact-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.contact .left,
+.contact .right {
+  flex: 1 1 45%;
+  max-width: 45%;
+  padding: 10px;
+}
+
+.contact .left .topic {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact .left .icons .icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.contact .left .icons .contact-info {
+  display: inline-block;
+}
+
+.contact .right .topic {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact .right form .input-box {
+  margin-bottom: 10px;
+}
+
+.contact .right form .input-box input,
+.contact .right form .input-box textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact .right form .input-box textarea {
+  height: 100px;
+}
+
+.contact .right form .button {
+  margin-top: 10px;
+}
+
+.contact .right form .button button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Footer section styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .navbar .menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .navbar .menu.active {
+      display: flex;
+  }
+
+  .menu-btn,
+  .cancel-btn {
+      display: block;
+  }
+
+  .about .about-details {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .skills .skills-details .box,
+  .services .box,
+  .contact .left,
+  .contact .right {
+      flex: 1 1 100%;
+      max-width: 100%;
+  }
+
+  .certificates .certificate {
+      flex: 1 1 100%;
+      max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .home .home-content .text-one,
+  .home .home-content .text-two,
+  .home .home-content .text-three,
+  .home .home-content .text-four {
+      font-size: 24px;
+  }
+
+  .skills .skills-details .box,
+  .services .box,
+  .contact .left,
+  .contact .right {
+      padding: 5px;
+  }
+}
+
+.email-button 
+{
+display: inline-block;
+
+padding: 10px 20px;
+
+background-color: #fff;
+
+color: #4070f4;
+
+text-decoration: none;
+
+border-radius: 5px;
+
+font-weight: bold;
+
+transition: background-color 0.3s ease;
+}
+
+
+.email-button:hover 
+{
+background-color: #fff;
+}
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
