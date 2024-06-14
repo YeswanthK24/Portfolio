@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Portfolio Website HTML CSS | Yeswanth K</title>
+    <link rel="stylesheet" href=".\styles\styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            var typed = new Typed('#typing-animation', {
+                strings: ["Data Analyst", "Student"],
+                typeSpeed: 100,
+                backSpeed: 50,
+                backDelay: 2000,
+                startDelay: 500,
+                loop: true
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+        <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navigation menu -->
+    <nav>
+        <div class="navbar">
+            <div></div>
+            <!--<div class="logo"><a href="#">Portfolio</a></div>-->
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div class="cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+            </ul>
+            <div class="media-icons">
+                <a href="https://www.linkedin.com/in/yeswanth-k/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/YeswanthK24"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="text">
+                <div class="text-one">Hello,</div>
+                <div class="text-two">I'm Yeswanth K</div>
+                <div class="text-three"><span id="typing-animation"></span></div>
+                <div class="text-four">From India</div>
+            </div>
+            <div class="button">
+                <a href="#contact">
+                    <button>Hire Me</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+        <div class="content">
+            
+            <div class="about-details">
+                <div class="left">
+                    <img src=".\image\photo.jpeg" alt="About Me">
+                </div>
+                <div class="right">
+                    <div class="title"><span>About Me</span></div>
+                    <div class="topic">Data Science Is My Passion</div>
+                    <p>
+                        Passionate and driven honors student from the Karpagam College of Engineering seeking a job as a AI Developer. I am diligent and ambitious developer. I have done many projects related to AI. I am patient and good at time management. A blooming developer with lots of creative ideas and knowledge in various trending technologies.
+                    </p>
+                    <div class="button">
+                        <a href="https://drive.google.com/file/d/1zCXcGTjmdnjYcUSexBIxCLfhQnu7w4P_/view?usp=drive_link" download>
+                            <button>Download CV</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Skills Section Start -->
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title"><span>My Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic">Skills Reflect Our Knowledge</div>
+                    <p>
+                        Proficient in Python, SQL, and web development tools. Skilled in machine learning and data visualization. Strong in teamwork, problem-solving, and analytical thinking.
+                    </p>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic">HTML - CSS</div>
+                        <!--<div class="per">70%</div>-->
+                    </div>
+                    <div class="box">
+                        <div class="topic">Python</div>
+                        <!--<div class="per">60%</div>-->
+                    </div>
+                    <div class="box">
+                        <div class="topic">SQL</div>
+                        <!--<div class="per">60%</div>-->
+                    </div>
+                    <div class="box">
+                        <div class="topic">Data Visualization</div>
+                        <!--<div class="per">60%</div>-->
+                    </div>
+                    <div class="box">
+                        <div class="topic">Machine Learning</div>
+                        <!--<div class="per">70%</div>-->
+                    </div>
+                    <div class="box">
+                        <div class="topic">Deep Learning</div>
+                        <!--<div class="per">60%</div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section Start -->
+    <section class="certificates" id="certificates">
+        <div class="content">
+            <div class="title"><span>Certificates</span></div>
+            <div class="certificates-details">
+                <div class="certificate">
+                    <img src=".\cerificates\DAA0017764207016 (1).jpg" alt="Certificate 1">
+                </div>
+                <div class="certificate">
+                    <img src=".\cerificates\QlikSenseBusinessAnalystQualification.jpg" alt="Certificate 2">
+                </div>
+                <div class="certificate">
+                    <img src=".\cerificates\Coursera E8PS5V36AJZU.jpg" alt="Certificate 3">
+                </div>
+                <div class="certificate">
+                    <img src=".\cerificates\Coursera 7RDP28N6WK3K.jpg" alt="Certificate 3">
+                </div>
+                <!-- Add more certificates as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title"><span>My Services</span></div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="topic">Data Visualization</div>
+                    <p>
+                        Visualizing the data with data analytic reports to analyze past, present, and future data of the community to increase their profit and bettering the quality, quantity, and services of the product.
+                    </p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="topic">Web Page Development</div>
+                    <p>
+                        I can offer you making simple websites using HTML, CSS, and JavaScript. I can design you beautiful resumes for your career success.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section Start -->
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Contact Me</span></div>
+            <div class="contact-details">
+                <div class="left">
+                    <div class="topic">Contact Information</div>
+                    <p>
+                        Feel free to reach out to me for any projects or opportunities. Here are my contact details:
+                    </p>
+                    <div class="icons">
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <p>+91 8825700565</p>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <p>Yeswanthvijayrocky@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <div class="icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <p><a href="https://linkedin.com/in/Yeswanth-k" target="_blank">Yeswanth-k</a></p>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <div class="icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <p><a href="https://github.com/YeswanthK24" target="_blank">YeswanthK24</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="topic">Have Any Project?</div>
+                    <p>
+                        I'm available for freelance work or full-time opportunities. Let's discuss your project and how I can help.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+        <div class="text">
+            <span>Created By <a href="#">Yeswanth K</a> | &#169; 2024 All Rights Reserved</span>
+        </div>
+    </footer>
+</body>
